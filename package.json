@@ -1,0 +1,33 @@
+{
+  "name": "express-skeleton",
+  "version": "1.0.0",
+  "description": "Express JS Skeleton",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongo",
+    "api",
+    "boilerplate"
+  ],
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^11.13.7",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "^7.0.0",
+    "express": "*",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
